@@ -14,6 +14,20 @@
 		5195255A3D37E01FA00AB495BD6D8FC7 /* Pods-WithKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5E3F62BFB5D14A2D31659954639CD /* Pods-WithKit_Example-dummy.m */; };
 		5DB05D6BDAFBB167F71992CC12D4ED5B /* Pods-WithKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E6867C2866BDFAF7ADDD5523E7A779 /* Pods-WithKit_Tests-dummy.m */; };
 		685D3274862C54091DE6D5120FC63B28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		700B7AE922132D3F00CC9D15 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7ADA22132D3F00CC9D15 /* UIFont.swift */; };
+		700B7AEB22132D3F00CC9D15 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7ADB22132D3F00CC9D15 /* UIImageView.swift */; };
+		700B7AED22132D3F00CC9D15 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7ADC22132D3F00CC9D15 /* UIBarButtonItem.swift */; };
+		700B7AEF22132D3F00CC9D15 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7ADD22132D3F00CC9D15 /* UIRefreshControl.swift */; };
+		700B7AF322132D3F00CC9D15 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7ADF22132D3F00CC9D15 /* UITableView.swift */; };
+		700B7AF522132D3F00CC9D15 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE022132D3F00CC9D15 /* UIScrollView.swift */; };
+		700B7AF722132D3F00CC9D15 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE122132D3F00CC9D15 /* UIColor.swift */; };
+		700B7AF922132D3F00CC9D15 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE222132D3F00CC9D15 /* UIButton.swift */; };
+		700B7AFB22132D3F00CC9D15 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE322132D3F00CC9D15 /* UILabel.swift */; };
+		700B7AFD22132D3F00CC9D15 /* UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE422132D3F00CC9D15 /* UIPageControl.swift */; };
+		700B7AFF22132D3F00CC9D15 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE522132D3F00CC9D15 /* UIStackView.swift */; };
+		700B7B0122132D3F00CC9D15 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE622132D3F00CC9D15 /* UICollectionView.swift */; };
+		700B7B0322132D3F00CC9D15 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AE722132D3F00CC9D15 /* UIImage.swift */; };
+		700B7B0422132D4800CC9D15 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AD822132CFF00CC9D15 /* UITextField.swift */; };
 		B2FF6341F41A6776DBB4922BE89DCE46 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB47FAD93CA723D5A9D4F3D6DC9B1A /* UIView.swift */; };
 		CC22C26B721F8A55C6711E5E68C4925A /* Pods-WithKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A32CC91D31827F90F6173C3FF55A260 /* Pods-WithKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A6EE7342ED16F3DF87A9AB1D7A7AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
@@ -48,6 +62,20 @@
 		4A32CC91D31827F90F6173C3FF55A260 /* Pods-WithKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WithKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5C6AF24A1F9A785AA55BE062379D1B5A /* Pods-WithKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WithKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E6EE5244137A4F2CC82FEB5FE0B3A5E /* Pods_WithKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WithKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B7AD822132CFF00CC9D15 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		700B7ADA22132D3F00CC9D15 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		700B7ADB22132D3F00CC9D15 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		700B7ADC22132D3F00CC9D15 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
+		700B7ADD22132D3F00CC9D15 /* UIRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
+		700B7ADF22132D3F00CC9D15 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		700B7AE022132D3F00CC9D15 /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		700B7AE122132D3F00CC9D15 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		700B7AE222132D3F00CC9D15 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		700B7AE322132D3F00CC9D15 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		700B7AE422132D3F00CC9D15 /* UIPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControl.swift; sourceTree = "<group>"; };
+		700B7AE522132D3F00CC9D15 /* UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		700B7AE622132D3F00CC9D15 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		700B7AE722132D3F00CC9D15 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		735AD38AAC33937457009C05C547B216 /* WithKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WithKit.xcconfig; sourceTree = "<group>"; };
 		7D18829C52A92D0454094690728D2069 /* Pods-WithKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WithKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83DAFF7A77BA5460111DC8650100544A /* Pods-WithKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WithKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -130,9 +158,23 @@
 		67EA427F2575F0B3F1A80001803E97BD /* WithKit */ = {
 			isa = PBXGroup;
 			children = (
-				CAAB47FAD93CA723D5A9D4F3D6DC9B1A /* UIView.swift */,
 				A242B949FBCDAE558E6A1F76E7CF76BF /* Pod */,
 				DCE67E7B52EBB09B631D591AC0D30B6E /* Support Files */,
+				CAAB47FAD93CA723D5A9D4F3D6DC9B1A /* UIView.swift */,
+				700B7AD822132CFF00CC9D15 /* UITextField.swift */,
+				700B7ADC22132D3F00CC9D15 /* UIBarButtonItem.swift */,
+				700B7AE222132D3F00CC9D15 /* UIButton.swift */,
+				700B7AE622132D3F00CC9D15 /* UICollectionView.swift */,
+				700B7AE122132D3F00CC9D15 /* UIColor.swift */,
+				700B7ADA22132D3F00CC9D15 /* UIFont.swift */,
+				700B7AE722132D3F00CC9D15 /* UIImage.swift */,
+				700B7ADB22132D3F00CC9D15 /* UIImageView.swift */,
+				700B7AE322132D3F00CC9D15 /* UILabel.swift */,
+				700B7AE422132D3F00CC9D15 /* UIPageControl.swift */,
+				700B7ADD22132D3F00CC9D15 /* UIRefreshControl.swift */,
+				700B7AE022132D3F00CC9D15 /* UIScrollView.swift */,
+				700B7AE522132D3F00CC9D15 /* UIStackView.swift */,
+				700B7ADF22132D3F00CC9D15 /* UITableView.swift */,
 			);
 			name = WithKit;
 			path = ../..;
@@ -320,6 +362,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
+					11B5EC616A97F0B5E6340BA5938AECBD = {
+						LastSwiftMigration = 1010;
+					};
 					74A34543DA6AF60E88F153E65FE0BA10 = {
 						LastSwiftMigration = 1010;
 					};
@@ -381,8 +426,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700B7B0122132D3F00CC9D15 /* UICollectionView.swift in Sources */,
+				700B7AEB22132D3F00CC9D15 /* UIImageView.swift in Sources */,
+				700B7AEF22132D3F00CC9D15 /* UIRefreshControl.swift in Sources */,
+				700B7AFD22132D3F00CC9D15 /* UIPageControl.swift in Sources */,
+				700B7AED22132D3F00CC9D15 /* UIBarButtonItem.swift in Sources */,
+				700B7AF522132D3F00CC9D15 /* UIScrollView.swift in Sources */,
 				B2FF6341F41A6776DBB4922BE89DCE46 /* UIView.swift in Sources */,
 				2C9C567EEDE80081F10A7AA4BB4E1726 /* WithKit-dummy.m in Sources */,
+				700B7AF322132D3F00CC9D15 /* UITableView.swift in Sources */,
+				700B7B0322132D3F00CC9D15 /* UIImage.swift in Sources */,
+				700B7AFF22132D3F00CC9D15 /* UIStackView.swift in Sources */,
+				700B7AF922132D3F00CC9D15 /* UIButton.swift in Sources */,
+				700B7AE922132D3F00CC9D15 /* UIFont.swift in Sources */,
+				700B7AFB22132D3F00CC9D15 /* UILabel.swift in Sources */,
+				700B7B0422132D4800CC9D15 /* UITextField.swift in Sources */,
+				700B7AF722132D3F00CC9D15 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +511,7 @@
 			baseConfigurationReference = 022D0676BC46F9B9E8D7346EE1B86927 /* Pods-WithKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -475,6 +535,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -672,6 +734,7 @@
 			baseConfigurationReference = AE707CBF7DF68137718096D5E74A258E /* Pods-WithKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -695,6 +758,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
