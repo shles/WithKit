@@ -15,7 +15,7 @@ extension UIView {
         }
     }
     
-    public  func with(contentMode: UIViewContentMode) -> Self {
+    public  func with(contentMode: UIView.ContentMode) -> Self {
         self.contentMode = contentMode
         return self
     }
@@ -53,12 +53,12 @@ extension UIView {
         return self
     }
     
-    public func with(compressionResistancePriority: UILayoutPriority, for axis: UILayoutConstraintAxis) -> Self {
+    public func with(compressionResistancePriority: UILayoutPriority, for axis: NSLayoutConstraint.Axis) -> Self {
         self.setContentCompressionResistancePriority(compressionResistancePriority, for: axis)
         return self
     }
     
-    public func with(huggingPriority: UILayoutPriority, for axis: UILayoutConstraintAxis) -> Self {
+    public func with(huggingPriority: UILayoutPriority, for axis: NSLayoutConstraint.Axis) -> Self {
         self.setContentHuggingPriority(huggingPriority, for: axis)
         return self
     }

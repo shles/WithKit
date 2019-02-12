@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WithKit'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of WithKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WithKit/Classes/**/*'
-  
+  s.swift_version = '4.2'  
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
