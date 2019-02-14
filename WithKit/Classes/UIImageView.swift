@@ -8,7 +8,7 @@ import UIKit
 
 extension UIImageView {
 
-    func with(image: UIImage) -> Self {
+    public func with(image: UIImage) -> Self {
         self.image = image
         return self
     }

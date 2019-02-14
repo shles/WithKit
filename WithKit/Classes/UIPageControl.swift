@@ -7,12 +7,12 @@ import Foundation
 
 extension UIPageControl {
 
-    func with(pageIndicatorTintColor: UIColor?) -> Self {
+    public func with(pageIndicatorTintColor: UIColor?) -> Self {
         self.pageIndicatorTintColor = pageIndicatorTintColor
         return self
     }
 
-    func with(currentPageIndicatorTintColor: UIColor?) -> Self {
+    public func with(currentPageIndicatorTintColor: UIColor?) -> Self {
         self.currentPageIndicatorTintColor = currentPageIndicatorTintColor
         return self
     }

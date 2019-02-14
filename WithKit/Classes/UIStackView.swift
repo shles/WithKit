@@ -12,33 +12,33 @@ import UIKit
 @available(iOS 9.0, *)
 extension UIStackView {
     
-    func addArrangedSubviews(_ subviews: [UIView]) {
+    public func addArrangedSubviews(_ subviews: [UIView]) {
         for view in subviews {
             addArrangedSubview(view)
         }
     }
 
-    func with(spacing: CGFloat) -> Self {
+    public func with(spacing: CGFloat) -> Self {
         self.spacing = spacing
         return self
     }
 
-    func with(distribution: UIStackView.Distribution) -> Self {
+    public func with(distribution: UIStackView.Distribution) -> Self {
         self.distribution = distribution
         return self
     }
 
-    func with(alignment: UIStackView.Alignment) -> Self {
+    public func with(alignment: UIStackView.Alignment) -> Self {
         self.alignment = alignment
         return self
     }
 
-    func with(axis: NSLayoutConstraint.Axis) -> Self {
+    public func with(axis: NSLayoutConstraint.Axis) -> Self {
         self.axis = axis
         return self
     }
 
-    func clear() {
+    public func clear() {
         self.arrangedSubviews.forEach{ $0.removeFromSuperview() }
     }
 

@@ -7,7 +7,7 @@ import Foundation
 
 extension UIRefreshControl {
 
-    func with(tintColor: UIColor) -> Self {
+    public func with(tintColor: UIColor) -> Self {
         self.tintColor = tintColor
         return self
     }

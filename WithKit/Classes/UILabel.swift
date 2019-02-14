@@ -7,27 +7,27 @@ import Foundation
 
 extension UILabel {
 
-    func aligned(by alignment: NSTextAlignment) -> Self {
+    public func aligned(by alignment: NSTextAlignment) -> Self {
         self.textAlignment = alignment
         return self
     }
 
-    func with(font: UIFont) -> Self {
+    public func with(font: UIFont) -> Self {
         self.font = font
         return self
     }
 
-    func with(textColor: UIColor) -> Self {
+    public func with(textColor: UIColor) -> Self {
         self.textColor = textColor
         return self
     }
 
-    func with(text: String?) -> Self {
+    public func with(text: String?) -> Self {
         self.text = text
         return self
     }
     
-    func with(numberOfLines: Int) -> Self {
+    public func with(numberOfLines: Int) -> Self {
         self.numberOfLines = numberOfLines
         return self
     }

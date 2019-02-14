@@ -10,22 +10,22 @@ import Foundation
 import UIKit
 
 extension UITextField {
-    func with(placeholder: String?) -> Self {
+    public func with(placeholder: String?) -> Self {
         self.placeholder = placeholder
         return self
     }
     
-    func with(textAlignment alignment: NSTextAlignment) -> Self {
+    public func with(textAlignment alignment: NSTextAlignment) -> Self {
         self.textAlignment = alignment
         return self
     }
     
-    func with(font: UIFont) -> Self {
+    public func with(font: UIFont) -> Self {
         self.font = font
         return self
     }
     
-    func with(keyboard: UIKeyboardType) -> Self {
+    public func with(keyboard: UIKeyboardType) -> Self {
         self.keyboardType = keyboard
         return self
     }

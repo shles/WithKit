@@ -12,14 +12,14 @@ extension UIScrollView {
         return self.layer.animation(forKey: "bounds") != nil
     }
 
-    func with(refreshControl: UIRefreshControl) -> Self {
+    public func with(refreshControl: UIRefreshControl) -> Self {
         if #available(iOS 10.0, *) {
             self.refreshControl = refreshControl
         } 
         return self
     }
 
-    func with(bouncing: Bool) -> Self {
+    public func with(bouncing: Bool) -> Self {
         self.bounces = bouncing
         return self
     }

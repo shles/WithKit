@@ -7,13 +7,13 @@ import Foundation
 
 extension UICollectionView {
 
-    func dequeueReusableCellOfType<CellType: UICollectionViewCell>(_ type: CellType.Type, for indexPath: IndexPath) -> CellType {
+    public func dequeueReusableCellOfType<CellType: UICollectionViewCell>(_ type: CellType.Type, for indexPath: IndexPath) -> CellType {
         let cellName = String(describing: type)
         register(CellType.self, forCellWithReuseIdentifier: cellName)
         return dequeueReusableCell(withReuseIdentifier: cellName, for: indexPath) as! CellType
     }
     
-    func dequeueReusableSupplementaryCellOfType<CellType: UICollectionViewCell>(_ type: CellType.Type, for indexPath: IndexPath, kind: String) -> CellType {
+    public func dequeueReusableSupplementaryCellOfType<CellType: UICollectionViewCell>(_ type: CellType.Type, for indexPath: IndexPath, kind: String) -> CellType {
         let cellName = String(describing: type)
         register(CellType.self, forSupplementaryViewOfKind: kind, withReuseIdentifier: cellName)
         return dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: cellName, for: indexPath) as! CellType
