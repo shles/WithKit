@@ -7,11 +7,6 @@ import Foundation
 
 extension UIScrollView {
 
-    //FIXME: Not reliable
-    var isScrolling: Bool {
-        return self.layer.animation(forKey: "bounds") != nil
-    }
-
     public func with(refreshControl: UIRefreshControl) -> Self {
         if #available(iOS 10.0, *) {
             self.refreshControl = refreshControl
