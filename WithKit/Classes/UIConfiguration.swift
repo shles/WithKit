@@ -15,11 +15,11 @@ open class UIConfiguration<UIType: UIViewParent> {
     
     private var configurationBlock: (UIType) -> (UIType)
     
-    init(block: @escaping (UIType) -> (UIType)) {
+    public init(block: @escaping (UIType) -> (UIType)) {
         self.configurationBlock = block
     }
     
-    func configure(view: UIType) -> UIType {
+    public func configure(view: UIType) -> UIType {
         return configurationBlock(view)
     }
 }
