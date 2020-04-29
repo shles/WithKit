@@ -19,6 +19,7 @@
 		685D3274862C54091DE6D5120FC63B28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 		702FD331223FD00200894843 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FD32D223FD00100894843 /* UIImage.swift */; };
 		702FD332223FD00200894843 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702FD32E223FD00100894843 /* UIBarButtonItem.swift */; };
+		70955DD02459A1F700C0BE42 /* UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70955DCF2459A1F700C0BE42 /* UIConfiguration.swift */; };
 		9B54FC2881DFBBA938C6E177D31BEEBB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C44A74182945F27A76F93337D75EC4 /* UIButton.swift */; };
 		A99579855E30F914B2A05A54D78D6887 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A592018E228ED32DBFAE7309221EC /* UIStackView.swift */; };
 		AFF576FEBF3EA72D7A9C08EEE8FE8316 /* WithKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 420F48B1A2F3754B0932102D63160CDB /* WithKit-dummy.m */; };
@@ -74,6 +75,7 @@
 		6E6EE5244137A4F2CC82FEB5FE0B3A5E /* Pods_WithKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WithKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702FD32D223FD00100894843 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = WithKit/Classes/UIImage.swift; sourceTree = "<group>"; };
 		702FD32E223FD00100894843 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIBarButtonItem.swift; path = WithKit/Classes/UIBarButtonItem.swift; sourceTree = "<group>"; };
+		70955DCF2459A1F700C0BE42 /* UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConfiguration.swift; sourceTree = "<group>"; };
 		7D18829C52A92D0454094690728D2069 /* Pods-WithKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WithKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E0A3253CA5544602A57E59C29635048 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		83DAFF7A77BA5460111DC8650100544A /* Pods-WithKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WithKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		2ECEC7BDFB14F2E5CC00101309208B5B /* WithKit */ = {
 			isa = PBXGroup;
 			children = (
+				70955DCF2459A1F700C0BE42 /* UIConfiguration.swift */,
 				702FD32E223FD00100894843 /* UIBarButtonItem.swift */,
 				702FD32D223FD00100894843 /* UIImage.swift */,
 				99C44A74182945F27A76F93337D75EC4 /* UIButton.swift */,
@@ -412,6 +415,7 @@
 			files = (
 				5195255A3D37E01FA00AB495BD6D8FC7 /* Pods-WithKit_Example-dummy.m in Sources */,
 				702FD332223FD00200894843 /* UIBarButtonItem.swift in Sources */,
+				70955DD02459A1F700C0BE42 /* UIConfiguration.swift in Sources */,
 				702FD331223FD00200894843 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
