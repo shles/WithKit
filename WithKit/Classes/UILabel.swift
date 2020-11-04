@@ -31,5 +31,15 @@ extension UILabel {
         self.numberOfLines = numberOfLines
         return self
     }
+    
+    public func with(lineBreakMode: NSLineBreakMode) -> Self {
+        self.lineBreakMode = lineBreakMode
+        return self
+    }
+    
+    public func with(textAlignment: NSTextAlignment) -> Self {
+        self.textAlignment = textAlignment
+        return self
+    }
 
 }
