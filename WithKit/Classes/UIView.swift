@@ -9,10 +9,8 @@ import UIKit
 
 extension UIView {
     
-    public func addSubviews(_ views: [UIView] ) {
-        for view in views {
-            addSubview(view)
-        }
+    public func addSubviews(_ views: UIView...) {
+        views.forEach { addSubview($0) }
     }
     
     public  func with(contentMode: UIView.ContentMode) -> Self {
