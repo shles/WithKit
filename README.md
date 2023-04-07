@@ -42,10 +42,10 @@ import WithKit
 Then, you can start using the provided extension methods. For example:
 
 ```swift
-let label = UILabel().with {
-    $0.text = "Hello, World!"
-    $0.textAlignment = .center
-    $0.textColor = .red
+let label = UILabel()
+    .with(text: "Hello, World!") 
+    .with(textAlignment: .center)
+    .with(textColor: .red)
 }
 ```
 
