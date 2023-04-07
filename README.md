@@ -46,7 +46,6 @@ let label = UILabel()
     .with(text: "Hello, World!") 
     .with(textAlignment: .center)
     .with(textColor: .red)
-}
 ```
 
 ## Contributing
