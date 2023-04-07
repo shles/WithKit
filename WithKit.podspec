@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WithKit'
-  s.version          = '0.4.4'
+  s.version          = '1.0.0'
   s.summary          = 'Swift framework for easy UI elements configuration'
 
 # This description is used to generate tags and improve search results.
@@ -27,9 +27,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'Artemiy Shlesberg' => 'temitrix@gmail.com' }
   s.source           = { :git => 'https://github.com/shles/WithKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'WithKit/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   s.swift_version = '4.2'  
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

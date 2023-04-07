@@ -1,5 +1,5 @@
 PODS:
-  - WithKit (0.4.1)
+  - WithKit (1.0.0)
 
 DEPENDENCIES:
   - WithKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WithKit: 85938487958257da3e574c253d9c1539a2efebd6
+  WithKit: 3447abfa6210e5d53e9f037329a7c0d2b4acf668
 
 PODFILE CHECKSUM: a2bc87faf6af262efd73987d19ab5a159275202e
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.12.0
